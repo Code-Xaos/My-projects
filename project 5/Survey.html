@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="Survey.css">
+<title>Ordinary Survey</title>
+    </head>
+    <body>
+        <main>
+          <h1 id="title">Your ordinary Survey</h1>
+          
+          <form id="survey-form">
+            <p id="description">A Survey you should really pass.</p>
+            <div class="container"><label id="name-label">Name:<input placeholder="Enter name" id="name" type="text" required/></label></div>
+            <div class="container"><label id="email-label">Email:<input placeholder="Enter email" id="email" type="email" required/></label></div>
+            <div class="container"><label id="number-label">Age:<input placeholder="Age" id="number" type="number"  min="12" max="100000000" required/></label></div>
+            <div class="container">
+            <p>Who are you?</p>
+              <select id="dropdown">
+                <option value="">Univercity Student</option>
+                <option value="">School Student</option>
+                <option value="">Employed Worker</option>
+                <option value="">Ktulhu</option>
+              </select>
+            </div>
+            <div class="container">
+              <label>Click this...<input name="rando" value="1" type="radio"></label>
+                <label  value="2">Or that.<input name="rando" value="2" type="radio"></label>
+              <label value="3">But not this.<input name="rando" value="3" type="radio"></label>
+              </div>
+              <div class="container">
+              <label  name="Check" >Box1<input value="Box1" type="checkbox"></label>
+                <label  name="Check">Box2<input value="Box2" type="checkbox"></label>
+              <label  name="Check">Box3<input value="Box3" type="checkbox"></label>
+              </div>
+              <p>Here is a pretty box for your letters.</p>
+            <div class="container">
+             <textarea name="" cols="60" rows="5"></textarea>
+              </div>
+             <div class="container">
+               <button id="submit">Submit</button>
+               </div>
+          </form>
+          
+          </main>
+        
+    </body>
+    </html>

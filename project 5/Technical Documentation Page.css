@@ -1,0 +1,54 @@
+body{
+  background-color: #605C5B;
+  margin-left: 270px;
+  padding: 0px 10px;
+}
+
+.main-section{
+ padding:20px;
+ font-family:Courier;
+ color: yellow;
+}
+
+.Znav {
+ background-color: black;
+ color: yellow;
+ font-size:40px;
+ height: 100%; 
+  width: 270px; 
+  position: fixed;
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  overflow-x: hidden; 
+  padding-top: 20px;
+  border-right: 2px solid yellow;
+}
+.Znav a {
+ font-family:Courier;
+ padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fffc2f;
+  display: block;
+}
+.Znav a:hover {
+ background-color: #ddd;
+ color: black;
+}
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+ 
+  line-height: 2;
+  background-color:black;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+@media screen and (max-height: 450px) {
+  .Znav {padding-top: 15px;}
+  .Znav a {font-size: 18px;}
+}
+.big{font-size: 30px;}

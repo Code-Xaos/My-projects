@@ -1,0 +1,95 @@
+
+#welcome-section{
+  height:100vh;
+  text-align: center;
+  font-size: 50px;
+  background: url("https://i.stack.imgur.com/pRumE.png");
+  background-attachment: fixed; 
+}
+#welcome-section h1{
+  padding-top:200px;
+}
+body{
+    font-family: fantasy;
+    color: white;
+    background-color: rgb(31, 11, 85);
+    min-width:1800px;
+   width: auto !important;
+   width:1800px;
+}
+nav{
+  float:right;
+  width: 100%;
+  top: 0; left: 0;
+  position: fixed;
+
+}
+nav li{
+  display:inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  width: auto;
+  
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 90px;
+  font-size: 20px;
+}
+li a:hover {
+  background-color: rgb(31, 11, 85);
+  color: white;
+}
+#projects{border-top:3px solid white;}
+.project-tile{
+  text-align: center;
+  font-size: 70px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.project{
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 250px;
+}
+.project a{ 
+    background-color: white;
+    margin:30px;
+    border: 1px solid white;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    width: 40px;
+    padding: 10px 20px;
+}
+.project a:hover{ 
+    background-color: rgb(31, 11, 85);
+    color: white;
+}
+footer{
+    font-size: 20px;
+    background-color: rgb(17, 7, 46);
+    font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+border-top:2px solid white;
+
+}
+@media screen and (max-width: 300px) {
+    .project a {
+        width: 100%
+    }
+  }

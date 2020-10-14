@@ -1,0 +1,169 @@
+@media screen {}
+.email{ 
+  display:flex;
+}
+#header-img{
+  width: 40px;
+}
+nav{
+  float:right;
+  width:100%;
+  position:fixed;
+  top: 0; left: 0;
+  border-bottom: 2px solid  rgb(244, 59, 196);
+  border-style: outset;
+}
+nav li{
+  display:inline;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom left, rgb(164, 231, 248), rgb(185, 235, 248));
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(244, 59, 196);
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li a:hover {
+  background-image: linear-gradient(to bottom left, rgb(244, 59, 196), rgb(164, 231, 248));
+  color: rgb(179, 236, 253);
+  text-shadow: 2px 2px 5px rgb(76, 60, 77);
+}
+
+body{
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;}
+section{text-align: center;}
+p{text-align: center;}
+
+
+iframe{
+margin: center;
+align-items: center;
+width:1400px;
+height: 600px;
+border: 4px solid rgb(244, 59, 196);
+}
+form{
+  padding-bottom: 90px;
+}
+#How_does_it_works{
+  align-items: center;
+  text-shadow: 2px 2px 5px rgb(76, 60, 77);
+  text-align: center;
+ font-size: 70px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ color:  rgb(164, 231, 248);
+}
+.miami{
+  text-shadow: 2px 2px 5px rgb(76, 60, 77);
+  text-align: center;
+ font-size: 70px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ color:  rgb(164, 231, 248);
+ height:100vh;
+ margin-top: 200px;
+}
+.patriot{
+  text-align: center;
+ border: 4px solid rgb(244, 59, 196);
+ background: url("https://playprint.ru/images/catalog/categories/category-hotline-miami-bg.jpg");
+ 
+}
+.patriot img{
+width: 70px;
+text-align: center;
+}
+.patriot p,h2{
+  padding: 10px;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:  rgb(164, 231, 248);
+  text-shadow: 2px 2px 5px rgb(76, 60, 77);
+    
+}
+#Participate{
+  padding-top: 10px;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:  rgb(164, 231, 248);
+  text-shadow: 2px 2px 5px rgb(76, 60, 77);
+}
+#email{
+  width: 200px;
+  padding: 14px 25px;
+  font-size: 18px;
+}
+#submit{
+  background-image: linear-gradient(to bottom left, rgb(164, 231, 248), rgb(185, 235, 248));
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  color: rgb(244, 59, 196) ;
+  padding: 14px 25px;
+  font-size: 18px;
+  overflow: hidden;
+}
+#submit:hover{
+  background-image: linear-gradient(to bottom left, rgb(244, 59, 196), rgb(164, 231, 248));
+  color:  white;
+  text-shadow: 2px 2px 5px rgb(179, 236, 253);
+}
+.small
+{
+  display: block;
+  display: inline-block;
+  margin: auto;
+  border:4px solid  rgb(164, 231, 248);
+  background-image: linear-gradient(to bottom left, rgb(255, 255, 255,0.4),  rgba(0, 0, 0,0.4));
+  border-radius: 70px;
+  width: 400px;
+  height: 300px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  color:  rgb(164, 231, 248);
+  text-shadow: 2px 2px 5px rgb(76, 60, 77);
+}
+.big{
+  margin-top: 200px;
+  display: block;
+  display: inline-block;
+  border:4px solid  rgb(164, 231, 248);
+  background-image: linear-gradient(to bottom left, rgb(244, 59, 196),  rgba(196, 0, 170, 0.5));
+  border-radius: 70px;
+  height:820px;
+  width: 920px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  color:  rgb(164, 231, 248);
+  text-shadow: 2px 2px 5px rgb(76, 60, 77);
+ 
+}
+.big h2{
+  font-size:40px; 
+}
+.small button{
+  background-image: linear-gradient(to bottom left, rgb(164, 231, 248), rgb(185, 235, 248));
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  color: rgb(244, 59, 196) ;
+  padding: 10px 20px;
+  font-size: 18px;
+  overflow: hidden;
+}
+.small button:hover{
+  background-image: linear-gradient(to bottom left, rgb(244, 59, 196), rgb(164, 231, 248));
+  color:  white;
+  text-shadow: 2px 2px 5px rgb(179, 236, 253);
+}
