@@ -1,0 +1,55 @@
+body{
+    text-align:center;
+    background: url("https://corporationchina.com/wp-content/uploads/2018/07/background-building-office-windows-glass-blue-bank-headquarter_ekvrute8__F0000_resize.png");
+    background-repeat: no-repeat;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width:1000px;
+   width: auto !important;
+   width:1000px;
+}
+#title{
+    font-size: 50px;
+}
+#description{
+    font-size: 20px;
+}
+
+div{
+    padding: 8px;
+}
+#description{
+    padding-top: 30px;
+    font-size: 25px;
+}
+form{
+    background:rgb(11, 66, 129,0.5);
+    border-style: inset yellow;
+    border-color: white;
+    border-radius: 10px;
+    margin: auto;
+    min-width:500px;
+   width:500px;
+   align-self: center;    
+}
+div{display: block;}
+button {
+    background-color: cornflowerblue;
+    border: none;
+    color:yellow;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+  }
+  button:hover{
+    background-color: yellow;
+    color:cornflowerblue;
+    border: 1px solid white;
+  }
+  .error{
+      visibility: hidden;
+  }
