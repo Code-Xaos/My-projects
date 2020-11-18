@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Marvel Fight</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="body">
+    <header>
+      <img class="logo" title="Reset Game" src="https://upload.wikimedia.org/wikipedia/uk/f/f3/The_Spectacular_Spider-Man_Logo.png" alt="Pokemon">
+    </header>
+    <div class="playground">
+      <div>
+        <div class="pokemon character">
+          <span class="lvl" id="lvl-character">Lv. 1</span>
+  
+          <img src="https://static.wikia.nocookie.net/protagonist/images/2/2d/5045949-5442645955-latest.png/revision/latest?cb=20170612075613&path-prefix=ru" class="sprite">
+  
+          <div class="details">
+            <h2 class="name" id="name-character">
+              Spider Man
+            </h2>
+            <div class="hp">
+              <div class="bar">
+                <div class="health" id="progressbar-character" style="width: 100%;"></div>
+              </div>
+              <span class="text" id="health-character">100 / 100</span>
+            </div>
+          </div>
+        </div>
+        <div class="control">
+          <button class="button" id="character-btn-kick" onclick="disablefirstbutton()">
+            Web Shot
+          </button>
+        </div>
+      </div>
+
+      <div id="refery">
+        <div class="pokemon character">
+
+            <img src="https://avatanplus.com/files/resources/original/59b3dc00e36a215e669363a4.png" class="sprite">
+
+            <div class="details">
+                <h2 class="name" id="winner_name">
+                </h2>
+            </div>
+        </div>
+        <div class="control">
+            <button class="button" id="restart-btn">
+                Restart Game
+            </button>
+        </div>
+    </div>
+
+      <div>
+        <div class="pokemon enemy">
+          <span class="lvl" id="lvl-enemy">Lv. 1</span>
+  
+          <img src="https://static.comicvine.com/uploads/original/2/22749/537308-venom362.gif" class="sprite">
+  
+          <div class="details">
+            <h2 class="name" id="name-enemy">
+              Venom
+            </h2>
+            <div class="hp">
+              <div class="bar">
+                <div class="health" id="progressbar-enemy" style="width: 100%;"></div>
+              </div>
+              <span class="text" id="health-enemy">100 / 100</span>
+            </div>
+          </div>
+        </div>
+        <div class="control">
+          <button class="button" id="enemy-btn-kick" onclick="disablesecondbutton()">
+            Symbiot Slash
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="catch_screen"></div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
