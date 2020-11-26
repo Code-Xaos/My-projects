@@ -1,0 +1,194 @@
+.flexed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  flex-direction: column;
+  width: 100%; height: 100vh;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+.addemp {
+ top: 0;
+ right: 0;
+ position:absolute;
+ background-color: #ff6060;
+ width: 100%;
+ border-bottom-style: solid;
+}
+#add{
+  background-color: #ff9f9f;
+  border-radius: 20%;
+  padding: 14px 20px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin: 4px 2px;
+  border: none;
+}
+#add:hover{
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.4s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+section.top {
+  width: 100%;
+  height: 100%;
+}
+section.top .list {
+  height: 90%; width: 25%;
+  background: #ffa9a9;
+  flex-direction: column;
+  justify-content: start;
+  border-right-style: solid;
+  bottom: 0;
+}
+
+section.top .list .employee {
+  justify-content: space-between;
+  font: 700 1.2em;
+  width: 80%;
+  padding: 4px 10px;
+  margin: 6px 0px;
+  background: #ff6060;
+  cursor: pointer;
+  color: white;
+  border: solid 3px black;
+}
+section.top .list .employee span {
+  pointer-events: none;
+}
+section.top .list .employee:first-child {
+  margin-top: 20px;
+}
+section.top .list .employee.visible {
+  background: #ff0000;
+  color: white;
+  width:90%;
+  left: 0;
+  border: solid 3px black;
+}
+section.top .list .employee .option {
+  font-size: 1.2em;
+  visibility: hidden;
+  position: relative;
+}
+section.top .list .employee .option:before {
+  content: "";
+  position: absolute;
+  width: 30px; height: 30px;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.top .list .employee .option:hover:before {
+  background: rgba(255,255,255,0.2);
+}
+section.top .list .employee .edit {
+  margin: 0px 10px;
+}
+section.top .list .employee:hover .option {
+  visibility: visible;
+}
+section.top #card {
+  height: 100%; width: 75%;
+  justify-content: start;
+  font: 30px;
+  visibility: hidden;
+  font-family: 'Courier New', Courier, monospace;
+}
+section.top #card.visible {
+  visibility: visible;
+}
+section.top #card #employeeImg {
+  margin: 0px 30px;
+  border:solid 3px black;
+}
+section.top #card td{
+  padding: 6px 18px;
+  background: #ff3a3a;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  border:solid 3px black;
+}
+
+
+#overflow {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  display: none;
+}
+#overflow.visible {
+  display: flex;
+}
+#overflow #overflowDark {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 0;
+}
+#overflow .in-overflow {
+  padding: 40px;
+  background: #ff6060;
+  z-index: 1;
+  border-radius: 16px;
+  border:solid 3px black;
+  color: white;
+}
+
+#overflow .inputs input {
+  margin: 6px 0px;
+  border: none;
+  padding: 6px 18px;
+  font-size: 1.2em;
+  width: 320px;
+  border: solid 3px black;
+}
+#overflow .inputs .small input {
+  width: 120px;
+}
+
+#overflow #photoInput {
+  width: 0.1px; height: 0.1px;
+  opacity: 0;
+}
+#overflow #photo {
+  margin-right: 30px;
+}
+
+#submit {
+  color: white;
+  background-color: #ff9f9f;
+  border-radius: 20%;
+  padding: 14px 20px;
+  font-size: 16px;
+  text-align: center;
+  margin: 4px 2px;
+  border: none;
+}
+#submit:hover{
+  background-color: #ff0000;
+  border: none;
+  opacity: 0.6;
+  transition: 0.4s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+#overflow h2 {
+  width: 100%;
+  margin-top: 0;
+  text-align: center;
+}
